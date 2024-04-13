@@ -3,11 +3,14 @@ import java.util.Scanner;
 public class As10 {
 
 	public static void main(String[] args) {
-		Scanner n=new Scanner(System.in);
+		Scanner num=new Scanner(System.in);
 		System.out.println("enter num :-");
-		int num=n.nextInt();
-		int i=1;
-		System.out.printf("%d + %d%d + %d%d%d\n",num,num,num,num,num,num);	
+		int n=num.nextInt();
+		int nn= n*10+n;
+		int nnn= n*100+nn;
+		int result = n + nn +nnn;
+		System.out.println("number:-"+n+"+"+nn+"+"+nnn);
+		System.out.println(result);
 	}
 
 }
